@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body {
+    margin: auto;
+    max-width: 600px;
+    font-family: 'PT+Serif', sans-serif;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+
+.description {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: square;
+}
+
+.contact-info {
+    margin-left: 0;
+    padding-left: 0;
+}
+.contact-data {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+pre {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.socials {
+    display: inline-block;
+    width: 400px;
+    justify-content: space-between;
+}
+.git img {
+    width: 17%;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.rs_school img {
+    width: 20%;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.git {
+    text-decoration: none;
+    margin-left: 50px;
+}
+.rs_school {
+    text-decoration: none;
+    margin-left: 50px;
+}
